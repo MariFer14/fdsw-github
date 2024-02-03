@@ -52,6 +52,16 @@ body {
   color: #373a3c;
 }
 
+footer{
+  display: flex;
+  justify-content: center;
+}
+
+footer i{
+  margin-top: 3px;
+  margin-right: 3px;
+}
+
 @media (max-width: 768px) {
   #Contacto form label {
     font-weight: 400;
