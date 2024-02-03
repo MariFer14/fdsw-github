@@ -11,6 +11,23 @@ body {
   background-position: center top;
 }
 
+/* Acerca de mi */
+
+.icono1 {
+  font-size: 120px;
+  color: orangered;
+}
+
+.icono2 {
+  font-size: 120px;
+  color: #0d6efd;
+}
+
+.icono3 {
+  font-size: 120px;
+  color: #ffc107;
+}
+
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {
@@ -32,8 +49,7 @@ body {
     font-weight: 400;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     width: 100px;
   }
-
 }
