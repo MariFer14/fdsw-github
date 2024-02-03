@@ -37,6 +37,14 @@ body {
   background-position: center;
 }
 
+.boton a{
+  text-decoration: none;
+}
+
+.boton a:hover{
+  color: white;
+}
+
 /* Contacto */
 
 #Contacto form label {

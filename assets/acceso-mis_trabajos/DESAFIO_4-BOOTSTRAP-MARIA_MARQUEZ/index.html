@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/cupon-pag.png">
+    <meta name="Author" content="Maria Marquez">
+    <title>Cuppon</title>
+  </head>
+  <body>
+    <!-- Nota: El valor de lg fue el que establecí para la versión del desktop. Y también quería avisar que los valores que utilice en el CSS local fue porque al aplicarlos
+    con el Bootstrap de ver no me funcionaron entonces los emplee así, pero del resto como puede observar todos los demás valores si estan colocados con Bootstrap. -->
+
+    <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid p-3">
+          <a class="navbar-brand" href="#"><img class="imagen" src="./assets/img/logo-white.png" alt="Cuppon"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav texto fw-medium">
+              <li class="nav-item">
+                <a class="nav-link active text-light fs-5 link1" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light opacity-50 fs-5 link1" href="#">Características</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light opacity-50 fs-5 link1" href="#">Nuestros precios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-light opacity-25 fs-5" aria-disabled="true">Desactivado</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main class="container mt-5 mb-2">
+        <div class="row container">
+
+            <div class="col-12 col-md-6 col-lg-4 mb-5">
+                <div class="card">
+                    <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Pulmón Coral Fleece estampado en modelo y tamaño a elección</p>
+                      <p class="mb-2 text-black-50">Pulmones Manolino</p>
+                      <div class="box-txt1 d-flex text-black-50">
+                        <i class="fa-solid fa-location-dot mt-1"></i>
+                        <p>9191 Avenida Vitacura, Chile</p>
+                      </div>
+                      <hr class="mt-0">
+                      <div class="d-flex justify-content-end">
+                        <p class="price1 text-black-50 mt-1">$45.990</p>
+                        <h5 class="text-success fw-bold">$22.990</h5>
+                      </div>
+
+                    </div>
+                  </div>
+            </div>
+ 
+            <div class="col-12 col-md-6 col-lg-4 mb-5">
+                <div class="card">
+                    <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Entrada para compartir + platos de fondo + postres + bebestibles</p>
+                      <p class="mb-2 text-black-50">V for Vegan</p>
+                      <div class="box-txt1 d-flex text-black-50">
+                        <i class="fa-solid fa-location-dot mt-1"></i>
+                        <p>777 Jesse Pinkman, Chile</p>
+                      </div>
+                      <hr class="mt-0">
+                      <div class="d-flex justify-content-end">
+                        <p class="price1 text-black-50 mt-1">$30.990</p>
+                        <h5 class="text-success fw-bold">$12.990</h5>
+                      </div>
+
+                    </div>
+                  </div>
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4 mb-5">
+                <div class="card">
+                    <img src="./assets/img/card3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Evaluación integral + blanqueamiento dental led + limpieza + fluoración</p>
+                      <p class="mb-2 text-black-50">Clínica Dental Quijada</p>
+                      <div class="box-txt1 d-flex text-black-50">
+                        <i class="fa-solid fa-location-dot mt-1"></i>
+                        <p>1342 Blanco Encalada, Chile</p>
+                      </div>
+                      <hr class="mt-0">
+                      <div class="d-flex justify-content-end">
+                        <p class="price1 text-black-50 mt-1">$300.000</p>
+                        <h5 class="text-success fw-bold">$25.990</h5>
+                      </div>
+
+                    </div>
+                  </div>
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4 mb-5">
+                <div class="card">
+                    <img src="./assets/img/card4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Colocación para 2 personas + postre (no incluye bebidas)</p>
+                      <p class="mb-2 text-black-50">Suricata almacen</p>
+                      <div class="box-txt1 d-flex text-black-50">
+                        <i class="fa-solid fa-location-dot mt-1"></i>
+                        <p>1071 Miguel Claro, Chile</p>
+                      </div>
+                      <hr class="mt-0">
+                      <div class="d-flex justify-content-end">
+                        <p class="price1 text-black-50 mt-1">$4.200</p>
+                        <h5 class="text-success fw-bold">$2.100</h5>
+                      </div>
+
+                    </div>
+                  </div>
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4 mb-5">
+                <div class="card">
+                    <img src="./assets/img/card5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">2 o 4 tickets para Stukids. Incluye una cena familiar para el disfrute de grandes y chicos. Elige sucursal</p>
+                      <p class="mb-2 text-black-50">Stukids Centro de Eventos</p>
+                      <div class="box-txt1 d-flex text-black-50">
+                        <i class="fa-solid fa-location-dot mt-1"></i>
+                        <p>133 El tranque, Chile</p>
+                      </div>
+                      <hr class="mt-0">
+                      <div class="d-flex justify-content-end">
+                        <p class="price1 text-black-50 mt-1">$4.000</p>
+                        <h5 class="text-success fw-bold">$2.500</h5>
+                      </div>
+
+                    </div>
+                  </div>
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4 mb-5">
+                <div class="card">
+                    <img src="./assets/img/card6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">San Pedro de Atacama: 1 o 2 noches en alojamiento a elección</p>
+                      <p class="mb-2 text-black-50">D-Latam Travel</p>
+                      <hr class="mt-0">
+                      <div class="d-flex justify-content-end">
+                        <p class="price1 text-black-50 mt-1">$80.200</p>
+                        <h5 class="text-success fw-bold">$44.100</h5>
+                      </div>
+
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </main>
+
+      <section class="container text-center bg-success pt-5 pb-4 px-5">
+
+        <form>
+            <h5 class="text-white mb-3">Recibe tus cupones por correo</h5>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Ingrese su nombre">
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo Electrónico">
+            </div>
+            <button type="submit" class="btn btn-light text-black fw-medium px-4 py-2">Enviar</button>
+          </form>
+
+    </section>
+
+    <footer class="container-fluid bg-white pt-4 pb-3">
+        <h5 class="text-center fw-bold">CUPPON</h5>
+        <div class="container text-center d-flex justify-content-center mt-2 pie text-black-50">
+            <i class="fa-regular fa-copyright mt-1"></i>
+            <p>2024 Cuppon Latam. Todos los derechos reservados.</p>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/97f3ad306d.js" crossorigin="anonymous"></script>
+  </body>
+</html>

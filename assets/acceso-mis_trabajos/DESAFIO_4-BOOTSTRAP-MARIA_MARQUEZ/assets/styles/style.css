@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.imagen{
+    width: 150px;
+    margin-left: 20px;
+}
+
+.texto{
+    margin-right: 20px;
+}
+
+.texto .link1{
+    margin-right: 10px;
+}
+
+.box-txt1 i{
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.price1{
+    margin-right: 15px;
+}
+
+.pie i{
+    margin-right: 2px;
+}

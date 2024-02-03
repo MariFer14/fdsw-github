@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header h1{
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.header img{
+    width: 100%;
+}
+
+.contenido{
+    display: flex;
+    margin: 30px 0 30px 0;
+}
+
+.txt-iguana{
+    padding: 120px 20px 30px 337px;
+    
+}
+
+.txt-iguana p{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.img-iguana{
+    padding: 30px 300px 30px 150px;
+} 
+
+.contenido img{
+    width: 500px;
+}
+
+.caracteristicas{
+    background-color: #1E1A13;
+    text-align: center;
+    padding-top: 65px;
+}
+
+.caracteristicas h2{
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 70px;
+
+}
+
+.caracteristicas-box{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 90px;
+    margin-bottom: 35px;
+}
+
+.caracteristicas-box .icono{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.caracteristicas-box p{
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+}
+
+.galeria img{
+    width: 433px;
+    height: 250px;
+    padding-left: 30px;
+}
+
+.footer{
+   background-color: #1E1A13; 
+   padding: 40px;
+}
+
+.footer-content .link{
+    text-align: center;
+}
+
+.link p{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
